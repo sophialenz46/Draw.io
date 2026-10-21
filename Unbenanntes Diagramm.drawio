@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="1707" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1204" dy="319" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YHO8feV5F9Ncq8nLX_RP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="160" width="409" x="1950" y="5" as="geometry" />
+        <mxCell id="YHO8feV5F9Ncq8nLX_RP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" value="" vertex="1">
+          <mxGeometry height="160" width="419" x="1940" y="5" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="155" width="520" x="1390" y="5" as="geometry" />
@@ -507,7 +507,7 @@
           <mxGeometry height="30" width="60" x="1410" y="10" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;b&gt;Reset password&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="170" x="1964" y="10" as="geometry" />
+          <mxGeometry height="30" width="170" x="1940" y="5" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-7" edge="1" parent="1" source="YHO8feV5F9Ncq8nLX_RP-6" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.303;entryY=-0.013;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="bCpH0AIxMNjmo9JDXI5g-5">
           <mxGeometry relative="1" as="geometry" />
@@ -557,6 +557,36 @@
             <mxPoint x="1529" y="130" as="sourcePoint" />
             <mxPoint x="1654" y="130" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-18" edge="1" parent="1" source="2itA-HUcilPv8wUhA8r5-11" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="2itA-HUcilPv8wUhA8r5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF99FF;" value="Open reset password email" vertex="1">
+          <mxGeometry height="42.5" width="120" x="1948" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-19" edge="1" parent="1" source="2itA-HUcilPv8wUhA8r5-12" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="2itA-HUcilPv8wUhA8r5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF99FF;" value="click on link" vertex="1">
+          <mxGeometry height="42.5" width="120" x="2089.5" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-20" edge="1" parent="1" source="2itA-HUcilPv8wUhA8r5-13" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.462;entryY=0.047;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="2itA-HUcilPv8wUhA8r5-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="input: New password" vertex="1">
+          <mxGeometry height="42.5" width="120" x="2230" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#ff6251, #512d2b);strokeColor=#b85450;" value="SAVE" vertex="1">
+          <mxGeometry height="42.5" width="110" x="2240" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Show: Password changed&lt;div&gt;You can now sign in with your new password&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="138" x="2050" y="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-16" edge="1" parent="1" source="2itA-HUcilPv8wUhA8r5-14" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.623;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="2itA-HUcilPv8wUhA8r5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2itA-HUcilPv8wUhA8r5-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Happens outside of the app" vertex="1">
+          <mxGeometry height="30" width="181" x="2074" y="5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
