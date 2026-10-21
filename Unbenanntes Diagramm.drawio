@@ -625,7 +625,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sKsCzZub7B6k-US1F09n" name="Statistik">
-    <mxGraphModel dx="1140" dy="-27" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="-163" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -638,13 +638,13 @@
         <mxCell id="3uMDjeZzjaj9oT_iOKrH-2" edge="1" parent="1" source="kFjBtObFT4R5aQsndcyb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="3uMDjeZzjaj9oT_iOKrH-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kFjBtObFT4R5aQsndcyb-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Get Data History&amp;nbsp;&lt;div&gt;from Databank&lt;/div&gt;" vertex="1">
+        <mxCell id="kFjBtObFT4R5aQsndcyb-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Get Data History&amp;nbsp;&lt;div&gt;from firebase&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="360" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="kFjBtObFT4R5aQsndcyb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Matchhistory:&lt;div&gt;Show history of last matches + outcome&lt;/div&gt;" vertex="1">
+        <mxCell id="kFjBtObFT4R5aQsndcyb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Match history:&lt;div&gt;Show history of last matches + outcome&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="1170" as="geometry" />
         </mxCell>
-        <mxCell id="kFjBtObFT4R5aQsndcyb-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="calculate last match Statistik&lt;div&gt;- Maches in Total&lt;/div&gt;&lt;div&gt;- Wins&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Losses&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Patts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="kFjBtObFT4R5aQsndcyb-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="calculate last match Statistic&lt;div&gt;- Matches in Total&lt;/div&gt;&lt;div&gt;- Wins&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Losses&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Patts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="120" x="230" y="1170" as="geometry" />
         </mxCell>
         <mxCell id="3uMDjeZzjaj9oT_iOKrH-3" edge="1" parent="1" source="3uMDjeZzjaj9oT_iOKrH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="kFjBtObFT4R5aQsndcyb-3">
@@ -654,7 +654,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3uMDjeZzjaj9oT_iOKrH-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Already games played?" vertex="1">
-          <mxGeometry height="80" width="80" x="380" y="1010" as="geometry" />
+          <mxGeometry height="90" width="100" x="360" y="1010" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
