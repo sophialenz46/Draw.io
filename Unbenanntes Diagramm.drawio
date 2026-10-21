@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="1538" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -682,11 +682,6 @@
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Already games played?" vertex="1">
           <mxGeometry height="90" width="100" x="2513" y="435" as="geometry" />
-        </mxCell>
-        <mxCell id="sreahPARQYHHAjHYf4ub-14" edge="1" parent="1" source="sreahPARQYHHAjHYf4ub-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2453.0000000000005" y="636" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Play your first Match" vertex="1">
           <mxGeometry height="60" width="120" x="2393" y="535" as="geometry" />
