@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="377" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1138" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -596,22 +596,22 @@
           <mxGeometry height="30" width="181" x="2074" y="5" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="" vertex="1">
-          <mxGeometry height="525" width="419" x="2390" y="135" as="geometry" />
+          <mxGeometry height="525" width="419" x="2380" y="200" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Statistics&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="2410" y="135" as="geometry" />
+          <mxGeometry height="30" width="60" x="2400" y="215" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-3" edge="1" parent="1" source="sreahPARQYHHAjHYf4ub-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="sreahPARQYHHAjHYf4ub-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Get Data History&amp;nbsp;&lt;div&gt;from firebase&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2553" y="260" as="geometry" />
+          <mxGeometry height="60" width="120" x="2543" y="325" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Match history:&lt;div&gt;Show history of last matches + outcome&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="2663" y="530" as="geometry" />
+          <mxGeometry height="60" width="120" x="2653" y="595" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="calculate last match Statistic&lt;div&gt;- Matches in Total&lt;/div&gt;&lt;div&gt;- Wins&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Losses&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;- Patts&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="120" x="2539.5" y="530" as="geometry" />
+          <mxGeometry height="110" width="120" x="2529.5" y="595" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-7" edge="1" parent="1" source="sreahPARQYHHAjHYf4ub-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="sreahPARQYHHAjHYf4ub-5">
           <mxGeometry relative="1" as="geometry" />
@@ -633,22 +633,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Already games played?" vertex="1">
-          <mxGeometry height="90" width="100" x="2523" y="370" as="geometry" />
+          <mxGeometry height="90" width="100" x="2513" y="435" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-14" edge="1" parent="1" source="sreahPARQYHHAjHYf4ub-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="sreahPARQYHHAjHYf4ub-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Play your first Match" vertex="1">
-          <mxGeometry height="60" width="120" x="2403" y="470" as="geometry" />
+          <mxGeometry height="60" width="120" x="2393" y="535" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Home Screen" vertex="1">
-          <mxGeometry height="60" width="120" x="2403" y="571" as="geometry" />
+          <mxGeometry height="60" width="120" x="2393" y="636" as="geometry" />
         </mxCell>
         <mxCell id="kVaBWnTK7pm4rjW2hLmC-3" edge="1" parent="1" source="kVaBWnTK7pm4rjW2hLmC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="sreahPARQYHHAjHYf4ub-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kVaBWnTK7pm4rjW2hLmC-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Statistics Screen" vertex="1">
-          <mxGeometry height="60" width="120" x="2553" y="165" as="geometry" />
+          <mxGeometry height="60" width="120" x="2543" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
