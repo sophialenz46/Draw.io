@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="377" dy="294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="785" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry height="860" width="800" x="860" y="170" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#b1dd8c, #4a890c);fontColor=#ffffff;strokeColor=#2D7600;" value="" vertex="1">
-          <mxGeometry height="955" width="775" x="52" y="170" as="geometry" />
+          <mxGeometry height="990" width="775" x="52" y="170" as="geometry" />
         </mxCell>
         <mxCell id="sMFYoLlC3qlfXHZ87iIb-14" edge="1" parent="1" source="sMFYoLlC3qlfXHZ87iIb-1" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="sMFYoLlC3qlfXHZ87iIb-2">
           <mxGeometry relative="1" as="geometry" />
@@ -28,6 +28,14 @@
         <mxCell id="sMFYoLlC3qlfXHZ87iIb-12" connectable="0" parent="sMFYoLlC3qlfXHZ87iIb-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;defaultLabelBackgroundColor=gap;" value="No" vertex="1">
           <mxGeometry relative="1" x="-0.45" y="2" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVaBWnTK7pm4rjW2hLmC-13" edge="1" parent="1" source="sMFYoLlC3qlfXHZ87iIb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="7fs5QqS69Vg9F7bEGWWs-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kVaBWnTK7pm4rjW2hLmC-14" connectable="0" parent="kVaBWnTK7pm4rjW2hLmC-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.8528" y="3" as="geometry">
+            <mxPoint x="-19" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sMFYoLlC3qlfXHZ87iIb-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Logged in?" vertex="1">
@@ -84,6 +92,22 @@
         </mxCell>
         <mxCell id="sMFYoLlC3qlfXHZ87iIb-24" connectable="0" parent="sMFYoLlC3qlfXHZ87iIb-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;defaultLabelBackgroundColor=gap;" value="No" vertex="1">
           <mxGeometry relative="1" x="-0.1743" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVaBWnTK7pm4rjW2hLmC-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.016" as="geometry">
+            <Array as="points">
+              <mxPoint x="278" y="1132.5" />
+              <mxPoint x="801" y="1132.5" />
+              <mxPoint x="801" y="270" />
+            </Array>
+            <mxPoint x="278.0000000000001" y="1070" as="sourcePoint" />
+            <mxPoint x="917" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kVaBWnTK7pm4rjW2hLmC-16" connectable="0" parent="kVaBWnTK7pm4rjW2hLmC-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.9708" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
