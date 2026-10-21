@@ -350,7 +350,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bCpH0AIxMNjmo9JDXI5g-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="847" width="633" x="1740" y="193" as="geometry" />
+          <mxGeometry height="857" width="633" x="1740" y="183" as="geometry" />
         </mxCell>
         <mxCell id="bCpH0AIxMNjmo9JDXI5g-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;b&gt;Game&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="1747" y="193" as="geometry" />
