@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="719" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="110" width="407" x="1950" y="35" as="geometry" />
+          <mxGeometry height="120" width="405.5" x="1950" y="10" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="110" width="440" x="1420" y="35" as="geometry" />
+          <mxGeometry height="120" width="438.5" x="1420" y="10" as="geometry" />
         </mxCell>
         <mxCell id="pWk4jdcojj4ASv1gzDN6-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="" vertex="1">
           <mxGeometry height="847" width="790" x="870" y="183" as="geometry" />
@@ -188,22 +188,22 @@
           <mxGeometry height="30" width="145" y="155" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="520" x="827" y="35" as="geometry" />
+          <mxGeometry height="120" width="520" x="827" y="5" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;div&gt;&lt;b&gt;Navigation bar&lt;/b&gt;&lt;/div&gt;&lt;div&gt;visible in every Screen (except Start, Login, Register)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="500" x="837" y="45" as="geometry" />
+          <mxGeometry height="50" width="500" x="837" y="15" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;" value="Home" vertex="1">
-          <mxGeometry height="50" width="100" x="837" y="95" as="geometry" />
+          <mxGeometry height="50" width="100" x="837" y="65" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Statistics" vertex="1">
-          <mxGeometry height="50" width="100" x="1087" y="95" as="geometry" />
+          <mxGeometry height="50" width="100" x="1087" y="65" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Match" vertex="1">
-          <mxGeometry height="50" width="110" x="957" y="95" as="geometry" />
+          <mxGeometry height="50" width="110" x="957" y="65" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Settings" vertex="1">
-          <mxGeometry height="50" width="110" x="1208" y="95" as="geometry" />
+          <mxGeometry height="50" width="110" x="1208" y="65" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FF6666,#392F3F);strokeColor=#9673a6;" value="Button" vertex="1">
           <mxGeometry height="50" width="145" x="390" y="10" as="geometry" />
@@ -504,10 +504,10 @@
           <mxGeometry height="50" width="120" x="1799" y="1008.5" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;b&gt;Settings&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="1440" y="40" as="geometry" />
+          <mxGeometry height="30" width="60" x="1438.5" y="15" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;b&gt;Reset password&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="170" x="1972" y="40" as="geometry" />
+          <mxGeometry height="30" width="170" x="1970.5" y="15" as="geometry" />
         </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-7" edge="1" parent="1" source="YHO8feV5F9Ncq8nLX_RP-6" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.303;entryY=-0.013;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="bCpH0AIxMNjmo9JDXI5g-5">
           <mxGeometry relative="1" as="geometry" />
@@ -643,7 +643,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sKsCzZub7B6k-US1F09n" name="Statistik">
-    <mxGraphModel dx="766" dy="-407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
