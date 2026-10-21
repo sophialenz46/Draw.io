@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="785" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1353" dy="1055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,28 +184,28 @@
           <mxGeometry height="40" width="120" x="377" y="645" as="geometry" />
         </mxCell>
         <mxCell id="OKMZsUB-L_PJzmIVwQoj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="130" width="720" as="geometry" />
+          <mxGeometry height="130" width="720" x="52" y="10" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF99FF;strokeColor=#9673a6;" value="User action" vertex="1">
-          <mxGeometry height="40" width="110" x="20" y="35" as="geometry" />
+          <mxGeometry height="40" width="110" x="72" y="45" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="System action" vertex="1">
-          <mxGeometry height="40" width="110" x="20" y="85" as="geometry" />
+          <mxGeometry height="40" width="110" x="72" y="95" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="System decision" vertex="1">
-          <mxGeometry height="80" width="80" x="160" y="35" as="geometry" />
+          <mxGeometry height="80" width="80" x="212" y="45" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#f8cecc;strokeColor=#b85450;" value="User decision" vertex="1">
-          <mxGeometry height="80" width="80" x="260" y="35" as="geometry" />
+          <mxGeometry height="80" width="80" x="312" y="45" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FFCCCC;" value="User input" vertex="1">
-          <mxGeometry height="40" width="145" x="390" y="75" as="geometry" />
+          <mxGeometry height="40" width="145" x="442" y="85" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Screen" vertex="1">
-          <mxGeometry height="50" width="110" x="570" y="50" as="geometry" />
+          <mxGeometry height="50" width="110" x="622" y="60" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;LEGEND&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="20" as="geometry" />
+          <mxGeometry height="30" width="60" x="72" y="10" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Login / Register&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="217" x="60" y="180" as="geometry" />
@@ -229,7 +229,7 @@
           <mxGeometry height="50" width="110" x="1208" y="80" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FF6666,#392F3F);strokeColor=#9673a6;" value="Button" vertex="1">
-          <mxGeometry height="50" width="145" x="390" y="10" as="geometry" />
+          <mxGeometry height="50" width="145" x="442" y="20" as="geometry" />
         </mxCell>
         <mxCell id="sLFbU5sDdhAPZ5sjSOes-13" edge="1" parent="1" source="7fs5QqS69Vg9F7bEGWWs-23" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="sLFbU5sDdhAPZ5sjSOes-2">
           <mxGeometry relative="1" as="geometry" />
