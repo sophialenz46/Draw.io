@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="1971" dy="1383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,14 +625,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sKsCzZub7B6k-US1F09n" name="Statistik">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1140" dy="-27" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vPLDhgeQ68lwm__2I_Wc-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="440" width="400" x="200" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="kFjBtObFT4R5aQsndcyb-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Statistiks&lt;/font&gt;&lt;/b&gt;" vertex="1">
+        <mxCell id="kFjBtObFT4R5aQsndcyb-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Statistics&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="220" y="900" as="geometry" />
         </mxCell>
         <mxCell id="3uMDjeZzjaj9oT_iOKrH-2" edge="1" parent="1" source="kFjBtObFT4R5aQsndcyb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="3uMDjeZzjaj9oT_iOKrH-1">
