@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="790" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1277" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -623,7 +623,7 @@
         <mxCell id="sreahPARQYHHAjHYf4ub-3" edge="1" parent="1" source="sreahPARQYHHAjHYf4ub-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="sreahPARQYHHAjHYf4ub-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sreahPARQYHHAjHYf4ub-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Get Data History&amp;nbsp;&lt;div&gt;from firebase&lt;/div&gt;" vertex="1">
+        <mxCell id="sreahPARQYHHAjHYf4ub-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;strokeColor=#d6b656;" value="Get Data History&amp;nbsp;&lt;div&gt;from firebase&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="2450" y="330" as="geometry" />
         </mxCell>
         <mxCell id="sreahPARQYHHAjHYf4ub-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Match history:&lt;div&gt;Show history of last matches + outcome&lt;/div&gt;" vertex="1">
@@ -729,7 +729,7 @@
         <mxCell id="Jq3v0De7cJmZoeThJh68-8" edge="1" parent="1" source="Jq3v0De7cJmZoeThJh68-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Jq3v0De7cJmZoeThJh68-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jq3v0De7cJmZoeThJh68-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontColor=#000000;strokeColor=#BD7000;" value="find previos matches" vertex="1">
+        <mxCell id="Jq3v0De7cJmZoeThJh68-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontColor=#000000;strokeColor=#BD7000;" value="Load game history from DB" vertex="1">
           <mxGeometry height="50" width="110" x="1347" y="300" as="geometry" />
         </mxCell>
         <mxCell id="Jq3v0De7cJmZoeThJh68-9" edge="1" parent="1" source="Jq3v0De7cJmZoeThJh68-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="sLFbU5sDdhAPZ5sjSOes-25">
