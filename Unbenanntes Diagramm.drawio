@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Ablaufdiagramm" id="1-KBBhBhXY0ai7pVimBQ">
-    <mxGraphModel dx="1049" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1161" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -504,7 +504,15 @@
         <mxCell id="e3xTx8VaEo_5RZ1qF8Xg-4" edge="1" parent="1" source="bCpH0AIxMNjmo9JDXI5g-33" style="edgeStyle=none;curved=1;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;" target="e3xTx8VaEo_5RZ1qF8Xg-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bCpH0AIxMNjmo9JDXI5g-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="End Game +&amp;nbsp;&lt;div&gt;Save Result&lt;/div&gt;" vertex="1">
+        <mxCell id="Jq3v0De7cJmZoeThJh68-3" edge="1" parent="1" source="bCpH0AIxMNjmo9JDXI5g-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Jq3v0De7cJmZoeThJh68-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2150" y="954.5" />
+              <mxPoint x="2150" y="1051.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bCpH0AIxMNjmo9JDXI5g-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="End Game" vertex="1">
           <mxGeometry height="60" width="120" x="1799" y="909.5" as="geometry" />
         </mxCell>
         <mxCell id="e3xTx8VaEo_5RZ1qF8Xg-7" edge="1" parent="1" source="e3xTx8VaEo_5RZ1qF8Xg-1" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.431;entryY=0.01;entryDx=0;entryDy=0;fontSize=12;defaultLabelBackgroundColor=gap;startSize=8;endSize=8;exitX=0.664;exitY=0.97;exitDx=0;exitDy=0;entryPerimeter=0;" target="7fs5QqS69Vg9F7bEGWWs-23">
@@ -728,6 +736,9 @@
         </mxCell>
         <mxCell id="-sSvxG2s0eZeHnxUhPQZ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontColor=#000000;strokeColor=#BD7000;" value="save username and passwort" vertex="1">
           <mxGeometry height="60" width="110" x="382" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="Jq3v0De7cJmZoeThJh68-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CC99FF;fontColor=#000000;strokeColor=#BD7000;" value="save in DB:&lt;div&gt;&lt;div&gt;- Spiel-ID&lt;/div&gt;&lt;div&gt;- names/ IDs of players&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- result of the match&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;- date and time&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="96.5" width="140" x="2200" y="1003.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
