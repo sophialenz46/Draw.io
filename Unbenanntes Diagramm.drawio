@@ -756,7 +756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_yOVPW8AgmyjGjBXvQkb" name="Klassendiagramm">
-    <mxGraphModel dx="939" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="783" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -775,14 +775,8 @@
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-12" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────────────┐&#xa;│           MatchmakingManager            │&#xa;├─────────────────────────────────────────┤&#xa;│ - currentUser: User                     │&#xa;│ - invitations: List&lt;MatchInvitation&gt;    │&#xa;├─────────────────────────────────────────┤&#xa;│ + findOpponent(username): User          │&#xa;│ + sendInvitation(user): void            │&#xa;│ + acceptInvitation(id): void            │&#xa;│ + declineInvitation(id): void           │&#xa;│ + getInvitations(): List&lt;MatchInvitation&gt; │&#xa;└─────────────────────────────────────────┘" vertex="1">
           <mxGeometry height="190" width="560" x="670" y="940" as="geometry" />
         </mxCell>
-        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-13" parent="1" style="text;whiteSpace=wrap;" value="┌──────────────────────────────────┐&#xa;│         MatchInvitation          │&#xa;├──────────────────────────────────┤&#xa;│ - invitationId: String           │&#xa;│ - sender: User                   │&#xa;│ - receiver: User                 │&#xa;│ - status: InvitationStatus       │&#xa;├──────────────────────────────────┤&#xa;│ + accept(): void                 │&#xa;│ + decline(): void                │&#xa;│ + getStatus(): InvitationStatus  │&#xa;└──────────────────────────────────┘" vertex="1">
-          <mxGeometry height="190" width="470" x="660" y="730" as="geometry" />
-        </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-14" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Match              │&#xa;├─────────────────────────────────┤&#xa;│ - matchId: String               │&#xa;│ - whitePlayer: User             │&#xa;│ - blackPlayer: User             │&#xa;│ - currentTurn: PieceColor       │&#xa;│ - status: MatchStatus           │&#xa;│ - board: Board                  │&#xa;│ - moves: List&lt;Move&gt;             │&#xa;│ - winner: User                  │&#xa;├─────────────────────────────────┤&#xa;│ + startMatch(): void            │&#xa;│ + makeMove(move): boolean       │&#xa;│ + switchTurn(): void            │&#xa;│ + checkGameOver(): boolean      │&#xa;│ + endMatch(): void              │&#xa;│ + getWinner(): User             │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="290" width="450" x="650" y="450" as="geometry" />
-        </mxCell>
-        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-15" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Board              │&#xa;├─────────────────────────────────┤&#xa;│ - squares: Piece[][]            │&#xa;├─────────────────────────────────┤&#xa;│ + initializeBoard(): void       │&#xa;│ + getPiece(row, col): Piece     │&#xa;│ + movePiece(move): void         │&#xa;│ + getPieces(): List&lt;Piece&gt;      │&#xa;└─────────────────────────────────┘" vertex="1">
-          <mxGeometry height="160" width="450" x="650" y="280" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-17" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           ChessRules            │&#xa;├─────────────────────────────────┤&#xa;│ - board: Board                  │&#xa;├─────────────────────────────────┤&#xa;│ + isLegalMove(move): boolean    │&#xa;│ + isCheck(color): boolean       │&#xa;│ + isCheckmate(color): boolean   │&#xa;│ + isStalemate(color): boolean   │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="210" width="450" x="1170" y="80" as="geometry" />
@@ -800,16 +794,22 @@
           <mxGeometry height="210" width="450" x="1160" y="695" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-22" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Piece" vertex="1">
-          <mxGeometry height="170" width="160" x="80" y="400" as="geometry" />
+          <mxGeometry height="170" width="160" x="80" y="240" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-24" parent="gh72a2DFxfNOdZ5J7Tsb-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- type: PieceType&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp;- color: PieceColor&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- row: int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp;- col: int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp;- hasMoved: boolean&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;+ getType(): PieceType&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getColor(): PieceColor&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ setPosition(row, col): void&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="145" width="180" y="27.5" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Board" vertex="1">
-          <mxGeometry height="120" width="166" x="280" y="400" as="geometry" />
+          <mxGeometry height="120" width="166" x="280" y="240" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-26" parent="gh72a2DFxfNOdZ5J7Tsb-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- squares: piece&lt;div&gt;&lt;hr&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;+ initializeBoard(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getPiece(row, col): Piece&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ movePiece(move): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getPieces(): List&amp;lt;Piece&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="180" x="6" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="MatchInvitation" vertex="1">
+          <mxGeometry height="145" width="166" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-28" parent="gh72a2DFxfNOdZ5J7Tsb-27" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;- invitationId: String&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;- sender: User&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;- receiver: User&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;- status: InvitationStatus&lt;/span&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;+ accept(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ decline(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getStatus(): InvitationStatus&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="190" x="5" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
