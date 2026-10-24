@@ -13,9 +13,6 @@
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="160" width="419" x="1940" y="5" as="geometry" />
         </mxCell>
-        <mxCell id="sdCb8JvTJE0a9REDJ017-2" edge="1" parent="1" source="YHO8feV5F9Ncq8nLX_RP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="7fs5QqS69Vg9F7bEGWWs-19" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="YHO8feV5F9Ncq8nLX_RP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="160" width="520" x="1390" y="5" as="geometry" />
         </mxCell>
@@ -229,9 +226,6 @@
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Match" vertex="1">
           <mxGeometry height="50" width="110" x="957" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="kVaBWnTK7pm4rjW2hLmC-19" edge="1" parent="1" source="7fs5QqS69Vg9F7bEGWWs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;fillColor=#647687;strokeColor=#314354;" target="2itA-HUcilPv8wUhA8r5-1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7fs5QqS69Vg9F7bEGWWs-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#FF6666;strokeColor=#b85450;" value="Settings" vertex="1">
           <mxGeometry height="50" width="110" x="1208" y="80" as="geometry" />
@@ -754,6 +748,9 @@
         </mxCell>
         <mxCell id="Jq3v0De7cJmZoeThJh68-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="show message: start first match" vertex="1">
           <mxGeometry height="50" width="120" x="1160" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="3aL0DbFhFY7pgL-ocr96-3" edge="1" parent="1" source="7fs5QqS69Vg9F7bEGWWs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="2itA-HUcilPv8wUhA8r5-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
