@@ -784,9 +784,6 @@
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-15" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Board              │&#xa;├─────────────────────────────────┤&#xa;│ - squares: Piece[][]            │&#xa;├─────────────────────────────────┤&#xa;│ + initializeBoard(): void       │&#xa;│ + getPiece(row, col): Piece     │&#xa;│ + movePiece(move): void         │&#xa;│ + getPieces(): List&lt;Piece&gt;      │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="160" width="450" x="650" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-16" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Piece              │&#xa;├─────────────────────────────────┤&#xa;│ - type: PieceType&#xa;│ - color: PieceColor &#xa;│ - row: int &#xa;│ - col: int &#xa;│ - hasMoved: boolean &#xa;├─────────────────────────────────┤&#xa;│ + getType(): PieceType &#xa;│ + getColor(): PieceColor &#xa;│ + setPosition(row, col): void &#xa;└─────────────────────────────────┘" vertex="1">
-          <mxGeometry height="210" width="450" x="660" y="80" as="geometry" />
-        </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-17" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           ChessRules            │&#xa;├─────────────────────────────────┤&#xa;│ - board: Board                  │&#xa;├─────────────────────────────────┤&#xa;│ + isLegalMove(move): boolean    │&#xa;│ + isCheck(color): boolean       │&#xa;│ + isCheckmate(color): boolean   │&#xa;│ + isStalemate(color): boolean   │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="210" width="450" x="1170" y="80" as="geometry" />
         </mxCell>
