@@ -809,7 +809,7 @@
           <mxGeometry height="232.5" width="180" x="6" y="27.5" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-31" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="ChessRules" vertex="1">
-          <mxGeometry height="120" width="200" x="80" y="630" as="geometry" />
+          <mxGeometry height="120" width="200" x="40" y="610" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-32" parent="gh72a2DFxfNOdZ5J7Tsb-31" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;- board: Board&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;hr style=&quot;text-align: left;&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ isLegalMove(move): boolean&amp;nbsp;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ isCheck(color): boolean&amp;nbsp;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ isCheckmate(color): boolean&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+ isStalemate(color): boolean&amp;nbsp;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="190" y="30" as="geometry" />
