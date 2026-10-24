@@ -767,7 +767,7 @@
           <mxGeometry height="130" width="160" y="30" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="AuthManager" vertex="1">
-          <mxGeometry height="130" width="240" x="80" y="230" as="geometry" />
+          <mxGeometry height="130" width="240" x="280" y="40" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-11" parent="gh72a2DFxfNOdZ5J7Tsb-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- auth: FirebaseAuth&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;+ register(email, password, username): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ login(email, password): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ logout(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ resetPassword(email): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getCurrentUser(): User&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="240" y="20" as="geometry" />
@@ -804,6 +804,12 @@
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-24" parent="gh72a2DFxfNOdZ5J7Tsb-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- type: PieceType&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp;- color: PieceColor&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- row: int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp;- col: int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp;- hasMoved: boolean&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;+ getType(): PieceType&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getColor(): PieceColor&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ setPosition(row, col): void&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="145" width="180" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-25" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Board" vertex="1">
+          <mxGeometry height="120" width="166" x="280" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-26" parent="gh72a2DFxfNOdZ5J7Tsb-25" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="- squares: piece&lt;div&gt;&lt;hr&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;+ initializeBoard(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getPiece(row, col): Piece&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ movePiece(move): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getPieces(): List&amp;lt;Piece&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="180" x="6" y="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
