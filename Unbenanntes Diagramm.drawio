@@ -756,7 +756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_yOVPW8AgmyjGjBXvQkb" name="Klassendiagramm">
-    <mxGraphModel dx="1693" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,9 +771,6 @@
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-11" parent="gh72a2DFxfNOdZ5J7Tsb-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- auth: FirebaseAuth&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;+ register(email, password, username): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ login(email, password): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ logout(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ resetPassword(email): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getCurrentUser(): User&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="240" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-19" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           Statistics            │&#xa;├─────────────────────────────────┤&#xa;│ - wins: int                     │&#xa;│ - losses: int                   │&#xa;│ - draws: int                    │&#xa;│ - totalMatches: int             │&#xa;├─────────────────────────────────┤&#xa;│ + calculateStatistics(): void   │&#xa;│ + getWins(): int                │&#xa;│ + getLosses(): int              │&#xa;│ + getDraws(): int               │&#xa;│ + getTotalMatches(): int        │&#xa;└─────────────────────────────────┘" vertex="1">
-          <mxGeometry height="220" width="450" x="660" y="510" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-20" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│        MatchHistoryEntry        │&#xa;├─────────────────────────────────┤&#xa;│ - matchId: String               │&#xa;│ - whitePlayerId: String         │&#xa;│ - blackPlayerId: String         │&#xa;│ - winnerId: String              │&#xa;│ - result: GameResult            │&#xa;│ - playedAt: long                │&#xa;├─────────────────────────────────┤&#xa;│ + getResult(): GameResult       │&#xa;│ + getPlayedAt(): long           │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="210" width="450" x="920" y="70" as="geometry" />
@@ -825,6 +822,12 @@
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-39" parent="gh72a2DFxfNOdZ5J7Tsb-38" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- database: FirebaseDatabase&lt;/span&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;+ saveUser(user): void&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ getUser(userId): void&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ saveMatch(match): void&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ getMatch(matchId): void&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ updateMatch(match): void&amp;nbsp;&lt;div&gt;+ saveInvitation(inv): void&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;div&gt;+ getMatchHistory(userId): void &lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-40" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Statistics" vertex="1">
+          <mxGeometry height="180" width="160" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-41" parent="gh72a2DFxfNOdZ5J7Tsb-40" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- wins: int&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;- losses: int&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;- draws: int&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;- totalMatches: int&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;div&gt;+ calculateStatistics(): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getWins(): int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ getLosses(): int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ getDraws(): int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;+ getTotalMatches(): int&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="145" width="180" x="6" y="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
