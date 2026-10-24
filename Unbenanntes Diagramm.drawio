@@ -756,7 +756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_yOVPW8AgmyjGjBXvQkb" name="Klassendiagramm">
-    <mxGraphModel dx="1848" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="939" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -784,7 +784,7 @@
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-15" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Board              │&#xa;├─────────────────────────────────┤&#xa;│ - squares: Piece[][]            │&#xa;├─────────────────────────────────┤&#xa;│ + initializeBoard(): void       │&#xa;│ + getPiece(row, col): Piece     │&#xa;│ + movePiece(move): void         │&#xa;│ + getPieces(): List&lt;Piece&gt;      │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="160" width="450" x="650" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-16" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Piece              │&#xa;├─────────────────────────────────┤&#xa;│ - type: PieceType               │&#xa;│ - color: PieceColor             │&#xa;│ - row: int                      │&#xa;│ - col: int                      │&#xa;│ - hasMoved: boolean             │&#xa;├─────────────────────────────────┤&#xa;│ + getType(): PieceType          │&#xa;│ + getColor(): PieceColor        │&#xa;│ + setPosition(row, col): void   │&#xa;└─────────────────────────────────┘" vertex="1">
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-16" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Piece              │&#xa;├─────────────────────────────────┤&#xa;│ - type: PieceType&#xa;│ - color: PieceColor &#xa;│ - row: int &#xa;│ - col: int &#xa;│ - hasMoved: boolean &#xa;├─────────────────────────────────┤&#xa;│ + getType(): PieceType &#xa;│ + getColor(): PieceColor &#xa;│ + setPosition(row, col): void &#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="210" width="450" x="660" y="80" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-17" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           ChessRules            │&#xa;├─────────────────────────────────┤&#xa;│ - board: Board                  │&#xa;├─────────────────────────────────┤&#xa;│ + isLegalMove(move): boolean    │&#xa;│ + isCheck(color): boolean       │&#xa;│ + isCheckmate(color): boolean   │&#xa;│ + isStalemate(color): boolean   │&#xa;└─────────────────────────────────┘" vertex="1">
@@ -801,6 +801,12 @@
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-21" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│        FirebaseRepository       │&#xa;├─────────────────────────────────┤&#xa;│ - database: FirebaseDatabase    │&#xa;├─────────────────────────────────┤&#xa;│ + saveUser(user): void          │&#xa;│ + getUser(userId): void         │&#xa;│ + saveMatch(match): void        │&#xa;│ + getMatch(matchId): void       │&#xa;│ + updateMatch(match): void      │&#xa;│ + saveInvitation(inv): void     │&#xa;│ + getMatchHistory(userId): void │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="210" width="450" x="1160" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-22" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Piece" vertex="1">
+          <mxGeometry height="170" width="160" x="80" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-24" parent="gh72a2DFxfNOdZ5J7Tsb-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- type: PieceType&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div&gt;&amp;nbsp;- color: PieceColor&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- row: int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp;- col: int&amp;nbsp;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&amp;nbsp;- hasMoved: boolean&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;+ getType(): PieceType&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ getColor(): PieceColor&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ setPosition(row, col): void&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="145" width="180" y="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
