@@ -756,10 +756,52 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_yOVPW8AgmyjGjBXvQkb" name="Klassendiagramm">
-    <mxGraphModel dx="1165" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="1855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;User&lt;/b&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-6" parent="gh72a2DFxfNOdZ5J7Tsb-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- userId: String&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;- username: String&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;- email: String&lt;/span&gt;&lt;div&gt;&lt;hr&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;+ getUsername(): String&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;+ getEmail(): String&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getUserId(): String&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;+ setUsername(String): void&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-8" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="AuthManager" vertex="1">
+          <mxGeometry height="130" width="240" x="80" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-11" parent="gh72a2DFxfNOdZ5J7Tsb-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- auth: FirebaseAuth&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;+ register(email, password, username): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ login(email, password): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ logout(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ resetPassword(email): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getCurrentUser(): User&amp;nbsp;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="110" width="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-12" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────────────┐&#xa;│           MatchmakingManager            │&#xa;├─────────────────────────────────────────┤&#xa;│ - currentUser: User                     │&#xa;│ - invitations: List&lt;MatchInvitation&gt;    │&#xa;├─────────────────────────────────────────┤&#xa;│ + findOpponent(username): User          │&#xa;│ + sendInvitation(user): void            │&#xa;│ + acceptInvitation(id): void            │&#xa;│ + declineInvitation(id): void           │&#xa;│ + getInvitations(): List&lt;MatchInvitation&gt; │&#xa;└─────────────────────────────────────────┘" vertex="1">
+          <mxGeometry height="190" width="560" x="670" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-13" parent="1" style="text;whiteSpace=wrap;" value="┌──────────────────────────────────┐&#xa;│         MatchInvitation          │&#xa;├──────────────────────────────────┤&#xa;│ - invitationId: String           │&#xa;│ - sender: User                   │&#xa;│ - receiver: User                 │&#xa;│ - status: InvitationStatus       │&#xa;├──────────────────────────────────┤&#xa;│ + accept(): void                 │&#xa;│ + decline(): void                │&#xa;│ + getStatus(): InvitationStatus  │&#xa;└──────────────────────────────────┘" vertex="1">
+          <mxGeometry height="190" width="470" x="660" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-14" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Match              │&#xa;├─────────────────────────────────┤&#xa;│ - matchId: String               │&#xa;│ - whitePlayer: User             │&#xa;│ - blackPlayer: User             │&#xa;│ - currentTurn: PieceColor       │&#xa;│ - status: MatchStatus           │&#xa;│ - board: Board                  │&#xa;│ - moves: List&lt;Move&gt;             │&#xa;│ - winner: User                  │&#xa;├─────────────────────────────────┤&#xa;│ + startMatch(): void            │&#xa;│ + makeMove(move): boolean       │&#xa;│ + switchTurn(): void            │&#xa;│ + checkGameOver(): boolean      │&#xa;│ + endMatch(): void              │&#xa;│ + getWinner(): User             │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="290" width="450" x="650" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-15" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Board              │&#xa;├─────────────────────────────────┤&#xa;│ - squares: Piece[][]            │&#xa;├─────────────────────────────────┤&#xa;│ + initializeBoard(): void       │&#xa;│ + getPiece(row, col): Piece     │&#xa;│ + movePiece(move): void         │&#xa;│ + getPieces(): List&lt;Piece&gt;      │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="160" width="450" x="650" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-16" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Piece              │&#xa;├─────────────────────────────────┤&#xa;│ - type: PieceType               │&#xa;│ - color: PieceColor             │&#xa;│ - row: int                      │&#xa;│ - col: int                      │&#xa;│ - hasMoved: boolean             │&#xa;├─────────────────────────────────┤&#xa;│ + getType(): PieceType          │&#xa;│ + getColor(): PieceColor        │&#xa;│ + setPosition(row, col): void   │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="210" width="450" x="660" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-17" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           ChessRules            │&#xa;├─────────────────────────────────┤&#xa;│ - board: Board                  │&#xa;├─────────────────────────────────┤&#xa;│ + isLegalMove(move): boolean    │&#xa;│ + isCheck(color): boolean       │&#xa;│ + isCheckmate(color): boolean   │&#xa;│ + isStalemate(color): boolean   │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="210" width="450" x="1170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-18" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Move               │&#xa;├─────────────────────────────────┤&#xa;│ - fromRow: int                  │&#xa;│ - fromCol: int                  │&#xa;│ - toRow: int                    │&#xa;│ - toCol: int                    │&#xa;│ - movedPiece: Piece             │&#xa;│ - capturedPiece: Piece          │&#xa;├─────────────────────────────────┤&#xa;│ + getMovedPiece(): Piece        │&#xa;│ + getCapturedPiece(): Piece     │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="210" width="450" x="1160" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-19" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           Statistics            │&#xa;├─────────────────────────────────┤&#xa;│ - wins: int                     │&#xa;│ - losses: int                   │&#xa;│ - draws: int                    │&#xa;│ - totalMatches: int             │&#xa;├─────────────────────────────────┤&#xa;│ + calculateStatistics(): void   │&#xa;│ + getWins(): int                │&#xa;│ + getLosses(): int              │&#xa;│ + getDraws(): int               │&#xa;│ + getTotalMatches(): int        │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="220" width="450" x="1160" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-20" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│        MatchHistoryEntry        │&#xa;├─────────────────────────────────┤&#xa;│ - matchId: String               │&#xa;│ - whitePlayerId: String         │&#xa;│ - blackPlayerId: String         │&#xa;│ - winnerId: String              │&#xa;│ - result: GameResult            │&#xa;│ - playedAt: long                │&#xa;├─────────────────────────────────┤&#xa;│ + getResult(): GameResult       │&#xa;│ + getPlayedAt(): long           │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="210" width="450" x="1610" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-21" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│        FirebaseRepository       │&#xa;├─────────────────────────────────┤&#xa;│ - database: FirebaseDatabase    │&#xa;├─────────────────────────────────┤&#xa;│ + saveUser(user): void          │&#xa;│ + getUser(userId): void         │&#xa;│ + saveMatch(match): void        │&#xa;│ + getMatch(matchId): void       │&#xa;│ + updateMatch(match): void      │&#xa;│ + saveInvitation(inv): void     │&#xa;│ + getMatchHistory(userId): void │&#xa;└─────────────────────────────────┘" vertex="1">
+          <mxGeometry height="210" width="450" x="1160" y="695" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
