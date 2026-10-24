@@ -756,7 +756,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_yOVPW8AgmyjGjBXvQkb" name="Klassendiagramm">
-    <mxGraphModel dx="982" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1309" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,9 +771,6 @@
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-11" parent="gh72a2DFxfNOdZ5J7Tsb-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;&quot;&gt;- auth: FirebaseAuth&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;hr&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;+ register(email, password, username): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ login(email, password): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ logout(): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;+ resetPassword(email): void&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getCurrentUser(): User&amp;nbsp;&lt;/span&gt;" vertex="1">
           <mxGeometry height="110" width="240" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-18" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│              Move               │&#xa;├─────────────────────────────────┤&#xa;│ - fromRow: int                  │&#xa;│ - fromCol: int                  │&#xa;│ - toRow: int                    │&#xa;│ - toCol: int                    │&#xa;│ - movedPiece: Piece             │&#xa;│ - capturedPiece: Piece          │&#xa;├─────────────────────────────────┤&#xa;│ + getMovedPiece(): Piece        │&#xa;│ + getCapturedPiece(): Piece     │&#xa;└─────────────────────────────────┘" vertex="1">
-          <mxGeometry height="210" width="450" x="1160" y="255" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-19" parent="1" style="text;whiteSpace=wrap;" value="┌─────────────────────────────────┐&#xa;│           Statistics            │&#xa;├─────────────────────────────────┤&#xa;│ - wins: int                     │&#xa;│ - losses: int                   │&#xa;│ - draws: int                    │&#xa;│ - totalMatches: int             │&#xa;├─────────────────────────────────┤&#xa;│ + calculateStatistics(): void   │&#xa;│ + getWins(): int                │&#xa;│ + getLosses(): int              │&#xa;│ + getDraws(): int               │&#xa;│ + getTotalMatches(): int        │&#xa;└─────────────────────────────────┘" vertex="1">
           <mxGeometry height="220" width="450" x="1160" y="475" as="geometry" />
@@ -815,10 +812,16 @@
           <mxGeometry height="90" width="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-33" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="MatchmakingManager" vertex="1">
-          <mxGeometry height="160" width="230" x="320" y="640" as="geometry" />
+          <mxGeometry height="160" width="230" x="280" y="640" as="geometry" />
         </mxCell>
         <mxCell id="gh72a2DFxfNOdZ5J7Tsb-34" parent="gh72a2DFxfNOdZ5J7Tsb-33" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- currentUser: User&amp;nbsp;&lt;/span&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- invitations: List&amp;lt;MatchInvitation&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;hr&gt;&lt;/div&gt;+ findOpponent(username): User&amp;nbsp;&lt;div&gt;+ sendInvitation(user): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ acceptInvitation(id): void&lt;/div&gt;&lt;div&gt;+ declineInvitation(id): void&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getInvitations(): List&amp;lt;MatchInvitation&amp;gt; &amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="65" width="255" x="5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-35" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Move" vertex="1">
+          <mxGeometry height="170" width="166" x="40" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="gh72a2DFxfNOdZ5J7Tsb-36" parent="gh72a2DFxfNOdZ5J7Tsb-35" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;&quot;&gt;&amp;nbsp;- fromRow: int&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- fromCol: int&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- toRow: int&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- toCol: int&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- movedPiece: Piece&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;- capturedPiece: Piece&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;hr&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getMovedPiece( ): Piece&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;+ getCapturedPiece( ): Piece&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="166" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
